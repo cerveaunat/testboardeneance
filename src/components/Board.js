@@ -2,7 +2,7 @@ export default function Board(props){
     let boardArray = [];
 
     const getTileSizeStyle = () => {
-        const size = 1100 / props.size;
+        const size = 750 / props.size;
         const sizeString = size + "px";
         return sizeString;
     }
