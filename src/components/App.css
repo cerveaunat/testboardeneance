@@ -1,0 +1,20 @@
+.App {
+  text-align: left;
+  margin : 10px;
+}
+
+.board{
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: 0px;
+}
+
+.blackTile{
+  background-color: black
+}
+
+.whiteTile{
+  background-color: white;
+}
